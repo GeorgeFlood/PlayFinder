@@ -1,0 +1,42 @@
+.streamers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.streamer__item {
+  position: relative;
+  text-align: center;
+  margin: 2rem 2rem;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  list-style: none;
+}
+
+.streamer__item:hover {
+  transform: translateY(-5px);
+}
+
+.streamer__img {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.streamer__info {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.live-banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

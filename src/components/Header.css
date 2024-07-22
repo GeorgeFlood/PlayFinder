@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.header__title {
+  font-size: 3rem;
+  align-items: center;
+  font-weight: 700;
+  margin: 0;
+}
